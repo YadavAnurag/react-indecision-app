@@ -1,0 +1,39 @@
+to use using cdn and babel install - 
+@babel-cli
+install babel presets - 
+@babel/preset-react and
+@babel/preset-env(contact es6, es7)
+
+install babel plugins-
+npm install --save-dev @babel/plugin-proposal-object-rest-spread
+
+updated install
+npm install --save-dev @babel/core
+
+To compile down-
+babel src/app.js --out-file=public/scripts/app.js --presets=@babel/env,@babel/react --watch
+
+total install-
+npm install --save-dev @babel/cli @babel/core @babel/plugin-proposal-object-rest-spread @babel/preset-env @babel/preset-react
+
+uninstall-
+npm uninstall -g @babel/cli @babel/core live-server
+
+const shuffleArray = (array)=>{
+  const arr = [...array];
+  for(let i=arr.length-1; i>0 ; i--){
+    const j = Math.floor(Math.random() * (i+1));
+    [arr[i], arr[j]] = [arr[j], arr[i]];
+  }
+  return arr
+}
+
+
+modules to be installed -
+npm install style-loader css-loader
+npm install sass-loader node-sass
+
+
+sites-
+getbem.com
+sass reference functions
